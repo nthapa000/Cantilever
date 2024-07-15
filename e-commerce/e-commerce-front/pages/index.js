@@ -1,5 +1,6 @@
 import Featured from "@/components/Featured";
 import Header from "@/components/Header";
+import NewProducts from "@/components/NewProduct";
 import { mongooseConnect } from "@/lib/mongoose";
 import { Product } from "@/model/Product";
 
@@ -9,6 +10,7 @@ export default function Homepage({product}) {
     <div className="roboto-regular">
       <Header />
       <Featured  product={product}/>
+      <NewProducts/>
     </div>
   );
 }
