@@ -251,3 +251,18 @@ body{
   color: #fff;
 }
 
+
+/* Cart */
+
+.CartColumnsWrapper{
+  display: grid;
+  grid-template-columns: 1.3fr .7fr;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.CartBox{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+}

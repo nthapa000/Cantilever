@@ -1,6 +1,9 @@
 import Link from "next/link"
+import { useContext } from "react";
+import { CartContext } from "./CardContext";
 
 export default function ProductBox({ _id, title, description, price, images }) {
+  const {addProduct} = useContext(CartContext)
   const url = '/product/'+_id;
   return (
     <div className="ProductBoxWrapper">
@@ -14,7 +17,7 @@ export default function ProductBox({ _id, title, description, price, images }) {
         <div className="ProductPriceRow">
           <div className="ProductBoxPrice">Rs. {price}</div>
           <div>
-            <button className="primaryBtn FeaturedButtonPrimary ">
+            <button className="primaryBtn FeaturedButtonPrimary " onClick={()=> addProduct(_id)}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
