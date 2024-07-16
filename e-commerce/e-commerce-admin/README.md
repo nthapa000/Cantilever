@@ -12,3 +12,4 @@ pnpm dev
 bun dev
 ```
 
+[Documentation and Step by Step process of making the admin page](https://github.com/nthapa000/Cantilever/blob/master/e-commerce/e-commerce-admin/E-Commerce-1.pdf)
