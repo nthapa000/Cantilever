@@ -80,7 +80,9 @@
 
 
 body{
-  @apply p-0 m-0
+  background-color: #eee;
+  padding: 0;
+  margin: 0;
   
 }
 
@@ -180,4 +182,25 @@ body{
   display: flex;
   gap: 10px;
   margin-top: 12px;
+}
+
+/* New Product */
+
+.NewProductGrid{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr ;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+/* Product Box */
+
+.ProductBox{
+  background-color:#fff;
+  padding: 20px;
+
+}
+
+.ProductBoxImage{
+  max-width: 100%;
 }
