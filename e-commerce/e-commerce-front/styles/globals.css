@@ -149,10 +149,11 @@ body{
 
 .primaryBtn{
   border: 0;
-  padding: 5px 15px;
+  padding: 5px 12px;
   border-radius: 5px;
   cursor: pointer;
   display: inline-flex;
+  font-family: 'Poppins',sans-serif;
   align-items: center;
 }
 
@@ -173,8 +174,8 @@ body{
 }
 
 .FeaturedButtonPrimary{
-  background-color: #5542F6;
-  border: 1px solid #5542F6;
+  background-color: #0D3D29;
+  border: 1px solid #0D3D29;
   color: #fff;
 }
 
@@ -189,18 +190,64 @@ body{
 .NewProductGrid{
   display: grid;
   grid-template-columns:1fr 1fr 1fr ;
-  gap: 20px;
-  padding-top: 20px;
+  gap: 40px;
+  padding-top: 30px;
+  /* margin-bottom: 30px; */
 }
 
+.NewProductTitle{
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: -10px;
+}
 /* Product Box */
 
 .ProductBox{
   background-color:#fff;
   padding: 20px;
-
+  text-align: center;
+  display: flex;
+  /* height: 180px; */
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 }
 
 .ProductBoxImage{
   max-width: 100%;
+  max-height: 160px;
 }
+
+.ProductBoxWrapper{
+
+}
+
+.ProductBoxTitle{
+    font-weight: normal;
+    font-size: .9rem;
+    margin: 0;
+}
+
+.ProductInfoBox{
+  margin-top: 5px;
+}
+
+.ProductPriceRow{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+
+.ProductBoxPrice{
+  font-size: 1.3rem;
+  font-weight:600 ;
+}
+
+.ProductBoxButton{
+  background-color: transparent;
+  border: 1px solid #5542F6;
+  color: #fff;
+}
+

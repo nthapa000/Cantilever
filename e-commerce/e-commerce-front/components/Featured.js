@@ -16,7 +16,7 @@ export default function Featured({product}) {
                 <Link href={'/products/'+product._id} className="primaryBtn  ButtonWhite ButtonWhiteOutline">
                   Read More
                 </Link>
-                <button className="primaryBtn FeaturedButtonPrimary">
+                <button className="primaryBtn ButtonWhite ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
