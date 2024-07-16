@@ -256,7 +256,7 @@ body{
 
 .CartColumnsWrapper{
   display: grid;
-  grid-template-columns: 1.3fr .7fr;
+  grid-template-columns: 1.6fr .9fr;
   gap: 40px;
   margin-top: 40px;
 }
@@ -265,4 +265,47 @@ body{
   background-color: #fff;
   border-radius: 10px;
   padding: 30px;
+}
+
+.CartTable{
+  width: 100%;
+  th{
+    text-align: left;
+    text-transform: uppercase;
+    color: #ccc;
+    font-weight: 600;
+    font-size: .7rem;
+  }
+  td{
+    border-top: 1px solid rgba(0,0,0,0.1);
+    
+  }
+  
+}
+
+.CartProductInfoCellImages{
+  max-width: 130px;
+  max-height: 130px;
+  padding: 10px;
+}
+
+.CartProductInfoCellImagesBox{
+  margin-top: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CartInput{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
